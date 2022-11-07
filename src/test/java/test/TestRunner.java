@@ -3,6 +3,7 @@ package test;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import org.testng.Reporter;
+import org.testng.annotations.Test;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,7 +16,7 @@ public class TestRunner {
 
     RozetkaPO method = new RozetkaPO();
 
-    @org.testng.annotations.Test
+    @Test
 
     public void testResult() throws IOException {
         open("https://rozetka.com.ua/");
