@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30faabff-5f72-49f4-9cec-49be22fcb665" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/RozetkaPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/RozetkaRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+    <list default="true" id="30faabff-5f72-49f4-9cec-49be22fcb665" name="Changes" comment="Automation task">
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RozetkaRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +42,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.Kotlin&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.RozetkaRunner">
-    <configuration name="RozetkaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.RozetkaRunner" />
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestRunner" />
       <module name="Rozetka" />
       <extension name="coverage">
         <pattern>
@@ -69,41 +60,6 @@
       <module name="Rozetka" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RozetkaRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Rozetka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.RozetkaRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RozetkaRunner.testResult" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Rozetka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.RozetkaRunner" />
-      <option name="METHOD_NAME" value="testResult" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,13 +84,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner.testResult" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Rozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestRunner" />
+      <option name="METHOD_NAME" value="testResult" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RozetkaRunner" />
-        <item itemvalue="TestNG.RozetkaRunner.testResult" />
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="TestNG.TestRunner.testResult" />
         <item itemvalue="TestNG.C:/Users/user/IdeaProjects/Rozetka/testNG.xml" />
         <item itemvalue="TestNG.RozetkaTests.checkName" />
-        <item itemvalue="Application.RozetkaRunner" />
+        <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667633375436</updated>
     </task>
+    <task id="LOCAL-00001" summary="Automation task">
+      <created>1667822238972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667822238972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +158,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Automation task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automation task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
