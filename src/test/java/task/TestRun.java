@@ -1,11 +1,11 @@
-package test;
+package task;
 
 import com.codeborne.selenide.Condition;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-import test.pages.Cart;
-import test.pages.HomePage;
-import test.pages.Notebooks;
+import task.pages.Cart;
+import task.pages.HomePage;
+import task.pages.Notebooks;
 
 import java.io.FileWriter;
 import java.io.IOException;
