@@ -16,7 +16,7 @@ public class TestRun {
 
     HomePage open = new HomePage();
 
-    Notebooks result = new Notebooks();
+    Notebooks notebooks = new Notebooks();
 
     Cart cart = new Cart();
 
@@ -25,9 +25,9 @@ public class TestRun {
         open.chooseLanguage();
         open.findLaptopsComps();
 
-        result.findNotebooks();
-        result.addFirstToCart();
-        result.numberOfItems().shouldHave(Condition.ownText("1"));
+        notebooks.findNotebooks();
+        notebooks.addFirstToCart();
+        notebooks.numberOfItems().shouldHave(Condition.ownText("1"));
 
         cart.openCart();
         cart.checkItem().shouldHave(Condition.ownText("Ноутбук Acer Aspire 7 A715-42G-R7BK (NH.QE5EU.00L) Charcoal Black"));
