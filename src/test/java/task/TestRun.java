@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import task.pages.Cart;
 import task.pages.HomePage;
 import task.pages.Notebooks;
+import task.pages.NotebooksComputers;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,6 +17,8 @@ public class TestRun {
 
     HomePage open = new HomePage();
 
+    NotebooksComputers redirect = new NotebooksComputers();
+
     Notebooks notebooks = new Notebooks();
 
     Cart cart = new Cart();
@@ -23,9 +26,10 @@ public class TestRun {
     @Test
     public void testResult() throws IOException {
         open.chooseLanguage();
-        open.findLaptopsComps();
+        open.findNotebooksComps();
 
-        notebooks.findNotebooks();
+        redirect.findNotebooks();
+
         notebooks.addFirstToCart();
         notebooks.numberOfItems().shouldHave(Condition.ownText("1"));
 
@@ -40,7 +44,7 @@ public class TestRun {
         map.put(name, price);
         Reporter.log(map.toString());
         FileWriter fileWriter = new FileWriter("report.txt");
-        fileWriter.write(map.toString());
+        fileWriter.write(map.toString().replace(" ", " "));
         fileWriter.close();
     }
 }

@@ -15,7 +15,7 @@ public class HomePage {
         $(byCssSelector(".lang__item")).click();
     }
 
-    public void findLaptopsComps() {
+    public void findNotebooksComps() {
         $(byLinkText("Ноутбуки и компьютеры")).click();
     }
 

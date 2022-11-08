@@ -9,9 +9,6 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class Notebooks {
-    public void findNotebooks() {
-        $(byLinkText("Ноутбуки")).click();
-    }
 
     public void addFirstToCart() {
         ElementsCollection results = $$(byCssSelector(".goods-tile__buy-button svg"));
